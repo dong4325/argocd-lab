@@ -10,3 +10,5 @@ configMapGenerator:
   - abc/application.properties
   - more.properties
   literals:
+generators:
+- rdGenerator.yaml
