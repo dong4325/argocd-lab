@@ -3,4 +3,10 @@ commonLabels:
 resources:
 - myapp-deployment.yaml
 - myapp-service.yaml
-
+configMapGenerator:
+- name: my-java-server-props
+  behavior: create
+  files:
+  - abc/application.properties
+  - more.properties
+  literals:
