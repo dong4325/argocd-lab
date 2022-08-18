@@ -9,7 +9,7 @@ metadata:
         path: ./plugins/function
 resource:
   resourceKind: ConfigMap
-  resourceName: cmname
+  resourceName: cmname22
   envs:
     - a.env
   files:
