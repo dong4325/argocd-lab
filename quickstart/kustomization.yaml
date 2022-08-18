@@ -1,0 +1,6 @@
+commonLabels:
+  app: hello
+resources:
+- myapp-deployment.yaml
+- myapp-service.yaml
+
