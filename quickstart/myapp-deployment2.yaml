@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myapp
+      app: myapp2
   template:
     metadata:
       labels:
-        app: myapp
+        app: myapp2
     spec:
       containers:
       - image: registry.cn-shanghai.aliyuncs.com/public-namespace/myapp:v2
